@@ -29,64 +29,72 @@
   <body>
     <div class="container-fluid d-flex flex-column min-vh-100 ">
       <!-- navbar start -->
-      <nav class="navbar navbar-expand-md d-flex align-items-center">
-        <div class="container-fluid">
-          <a href="index.html" class="navbar-brand fs-4 fw-semibold text-info"
-            >Bengkelzz</a
-          >
+      <nav class="navbar navbar-expand-lg mb-3 p-3" style="background-color: whitesmoke;">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <!-- Tambahkan tombol toggler -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="row w-100 mx-auto d-flex align-items-center"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!-- Tambahkan div collapse navbar -->
-          <div class="collapse navbar-collapse ml-3" id="navbarNav">
-            <div class="navbar-nav mr-auto fs-5">
-              <a
-                href="index.html"
-                class="nav-item nav-link mx-5 text-info fw-semibold"
-                >Home</a
-              >
-              <a
-                href="product.html"
-                class="nav-item nav-link mx-5 text-info fw-semibold"
-                >Layanan</a
-              >
-              <a
-                href="booking.html"
-                class="nav-item nav-link mx-5 text-info fw-semibold"
-                >Booking</a
+            <div class="col-md-6 d-flex justify-content-between">
+                <a href="index.html" class="navbar-brand fs-4 fw-semibold "
+                >Bengkelzz</a
               >
             </div>
 
-            <div class="form-inline">
-              <button
+            <div class="col-md-6 d-flex justify-content-end">
+              <ul
+                class="navbar-nav w-100 d-flex justify-content-between"
+                style="font-size: 18px"
+              >
+                <li class="nav-item active">
+                  <a class="nav-link text-black" href="index.html"
+                    >Home <span class="sr-only"></span
+                  ></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-black" href="product.html"
+                    >Layanan <span class="sr-only"></span
+                  ></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-black" href="booking.html"
+                    >Booking <span class="sr-only"></span
+                  ></a>
+                </li>
+                <li class="nav-item active">
+                  <button
                 class="btn btn-outline-info my-2 my-sm-0 mx-2"
                 type="submit"
               >
-                <a href="login.html" class="text-decoration-none fw-semibold"
+                <a href="login.html" class="text-decoration-none text-black fw-semibold"
                   >Login</a
                 >
               </button>
-              <button
+                </li>
+                <li class="nav-item active">
+                  <button
                 class="btn btn-outline-info my-2 my-sm-0 mx-2"
                 type="submit"
               >
                 <a
                   href="registrasi.html"
-                  class="text-decoration-none fw-semibold"
+                  class="text-decoration-none text-black fw-semibold"
                   >Register</a
                 >
               </button>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
